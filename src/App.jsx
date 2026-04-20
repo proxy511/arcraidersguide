@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ArcRaidersGuide from "./games/ArcRaiders.jsx";
+import cronosguide from "./games/cronosTND.jsx";
 
 const C = {
   bg: "#060809", panel: "#0c1014", border: "#182028",
@@ -20,6 +21,17 @@ const GAMES = [
     tags: ["Full Loot DB", "Quest Walkthroughs", "Workshop"],
     component: ArcRaidersGuide,
     lastUpdated: "Flashpoint Update",
+  },
+  {
+    id: "cronos-tnd",
+    title: "CRONOS: THE NEW DAWN",
+    subtitle: "Survival Horror",
+    color: "#c0392b",
+    accent: "#e8a030",
+    description: "Complete survival guide — weapons database, enemy tactics, upgrade priorities, and essential tips",
+    tags: ["Weapons Guide", "Enemy Database", "Survival Tips"],
+    component: cronosguide,
+    lastUpdated: "Release Guide",
   },
 ];
 
